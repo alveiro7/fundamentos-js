@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twenty-Seventh Class - Tiempo en JavaScript</title>
+</head>
+<body>
+    <h1>Fundamentos JS</h1>
+    <script>
+        console.log('a')
+        // El setTimeout es una función de JavaScript que ejecuta su contenido después de un lapso de tiempo, este lapso de tiempo está indicado en milisegundos.
+        // con fucntion arrow 
+        setTimeout(() => console.log('b'), 4000)
+        console.log('c')
+        
+        // con fucntion tradicional
+        setTimeout(function(){
+            console.log('d')
+        },0)
+        for (var i = 0; i < 100; i++) {
+            console.log(`iteraccion ${i}`)
+        }
+    </script>   
+</body>
+</html>
